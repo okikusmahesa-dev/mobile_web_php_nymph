@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="[802700]" descript="[802700] List Withdraw" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="loginId" type="1" size="0" bindname="loginId" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</input>
+	<output>
+		<record name="out" type="0" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="entry_date" type="1" size="0" bindname="entry_date" fieldformat="" validre="" constvalue="" /> 
+			<field name="amount" type="1" size="0" bindname="amount" fieldformat="" validre="" constvalue="" /> 
+			<field name="descript" type="1" size="0" bindname="descript" fieldformat="" validre="" constvalue="" /> 
+			<field name="AccNo" type="1" size="0" bindname="AccNo" fieldformat="" validre="" constvalue="" /> 
+			<field name="Bank" type="1" size="0" bindname="Bank" fieldformat="" validre="" constvalue="" /> 
+			<field name="AccName" type="1" size="0" bindname="AccName"  fieldformat="" validre="" constvalue="" /> 
+			<field name="trf_date" type="1" size="0" bindname="trf_date" fieldformat="" validre="" constvalue="" /> 
+			<field name="status" type="1" size="0" bindname="status" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</output>
+</request>

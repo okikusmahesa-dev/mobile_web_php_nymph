@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="ClientInformationClientProfile" descript="[800301]Client Account Client Profile">
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="userId" type="1" size="0" bindname="userId" fieldformat="" validre="" constvalue="" /> 
+			<field name="pin" type="1" size="0" bindname="pin" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</input>
+	<output>
+		<record name="out" type="1" size="0" sizetype="0"  sizeformat="" sizefield="">                                                                                                                                                                                                                                                                       
+			<field name="userId" type="1" size="0" bindname="userId" fieldformat="" validre="" constvalue="" /> 
+			<field name="idType" type="1" size="0" bindname="idType" fieldformat="" validre="" constvalue="" /> 
+			<field name="idNo" type="1" size="0" bindname="idNo" fieldformat="" validre="" constvalue="" /> 
+			<field name="idExDate" type="1" size="0" bindname="idExDate" fieldformat="" validre="" constvalue="" /> 
+			<field name="marriageStat" type="1" size="0" bindname="marriageStat" fieldformat="" validre="" constvalue="" /> 
+			<field name="dateOfBirth" type="1" size="0" bindname="dateOfBirth" fieldformat="" validre="" constvalue="" /> 
+			<field name="address" type="1" size="0" bindname="address" fieldformat="" validre="" constvalue="" /> 
+			<field name="email" type="1" size="0" bindname="email" fieldformat="" validre="" constvalue="" /> 
+			<field name="compName" type="1" size="0" bindname="compName" fieldformat="" validre="" constvalue="" /> 
+			<field name="phoneId" type="1" size="0" bindname="phoneId" fieldformat="" validre="" constvalue="" /> 
+			<field name="mobileId" type="1" size="0" bindname="mobileId" fieldformat="" validre="" constvalue="" />
+			<field name="faxNo" type="1" size="0" bindname="faxNo" fieldformat="" validre="" constvalue="" /> 
+			<field name="position" type="1" size="0" bindname="position" fieldformat="" validre="" constvalue="" /> 
+			<field name="religion" type="1" size="0" bindname="religion" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</output>
+</request>

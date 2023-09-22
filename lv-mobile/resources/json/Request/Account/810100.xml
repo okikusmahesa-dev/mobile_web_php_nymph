@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="Portofolio" descript="[810100]" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="Client" type="1" size="0" bindname="Client" fieldformat="" validre="" constvalue="" /> 
+			<field name="Client_Name" type="1" size="0" bindname="Client_Name" fieldformat="" validre="" constvalue="" /> 
+			<field name="Date" type="1" size="0" bindname="Client" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</input>
+	<output>
+		<record name="out" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="Client_Cat" type="1" size="0" bindname="Client_Cat" fieldformat="" validre="" constvalue="" />
+			<field name="Phone" type="1" size="0" bindname="Phone" fieldformat="" validre="" constvalue="" /> 
+			<field name="HP" type="7" size="0" bindname="HP" fieldformat="" validre="" constvalue="" />
+			<field name="Email" type="7" size="0" bindname="Email" fieldformat="" validre="" constvalue="" /> 
+			<field name="Crdt_limit" type="7" size="0" bindname="Crdt_limit" fieldformat="" validre="" constvalue="" />
+			<field name="Max_Trade_Lmt" type="7" size="0" bindname="Max_Trade_Lmt" fieldformat="" validre="" constvalue="" />
+			<field name="Min_Trade_Lmt" type="7" size="0" bindname="Min_Trade_Lmt" fieldformat="" validre="" constvalue="" />
+			<field name="Cash_Margin" type="7" size="0" bindname="Cash_Margin" fieldformat="" validre="" constvalue="" />
+			<field name="Stk_Margin" type="7" size="0" bindname="Stk_Margin" fieldformat="" validre="" constvalue="" />
+			<field name="M_Ratio" type="7" size="0" bindname="M_Ratio" fieldformat="" validre="" constvalue="" />
+			<field name="TU_Ratio" type="7" size="0" bindname="TU_Ratio" fieldformat="" validre="" constvalue="" />
+			<field name="FS_Ratio" type="7" size="0" bindname="FS_Ratio" fieldformat="" validre="" constvalue="" />
+			<field name="Crnt_Ratio" type="7" size="0" bindname="Crnt_Ratio" fieldformat="" validre="" constvalue="" />
+			<field name="Deposito" type="1" size="0" bindname="Deposito" fieldformat="" validre="" constvalue="" />
+			<field name="AC" type="1" size="0" bindname="AC" fieldformat="" validre="" constvalue="" /> 
+			<field name="Buy" type="7" size="0" bindname="Buy" fieldformat="" validre="" constvalue="" />
+			<field name="Sell" type="7" size="0" bindname="Sell" fieldformat="" validre="" constvalue="" /> 
+			<field name="Net_AC" type="7" size="0" bindname="Net_AC" fieldformat="" validre="" constvalue="" />
+			<field name="Bid" type="7" size="0" bindname="Bid" fieldformat="" validre="" constvalue="" />
+			<field name="Offer" type="7" size="0" bindname="Offer" fieldformat="" validre="" constvalue="" />
+			<field name="Stk_Val" type="7" size="0" bindname="Stk_Val" fieldformat="" validre="" constvalue="" />
+			<field name="Mrkt_Val" type="7" size="0" bindname="Mrkt_Val" fieldformat="" validre="" constvalue="" />
+			<field name="Hrct_Val" type="7" size="0" bindname="Hrct_Val" fieldformat="" validre="" constvalue="" />
+			<field name="Unrealized" type="7" size="0" bindname="Unrealized" fieldformat="" validre="" constvalue="" />
+			<field name="Ovr_Lmt" type="7" size="0" bindname="Ovr_Lmt" fieldformat="" validre="" constvalue="" />
+			<field name="Top_Up" type="7" size="0" bindname="Top_Up" fieldformat="" validre="" constvalue="" />
+			<field name="Frc_Sell" type="7" size="0" bindname="Frc_Sell" fieldformat="" validre="" constvalue="" />
+			<field name="Trd_Lmt" type="7" size="0" bindname="Trd_Lmt" fieldformat="" validre="" constvalue="" />
+		</record>
+	</output>
+</request>

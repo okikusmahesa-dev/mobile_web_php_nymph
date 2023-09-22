@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="[080200]" descript="[080200]Conditional Order(list)" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="cliId" type="1" size="0" bindname="cliId" fieldformat="" validre="" constvalue="" /> 
+			<field name="brokerId" type="1" size="0" bindname="brokerId" fieldformat="" validre="" constvalue="" /> 
+			<field name="pin" type="1" size="0" bindname="pin" fieldformat="" validre="" constvalue="" />
+			<field name="nextKey" type="1" size="0" bindname="nextKey" fieldformat="" validre="" constvalue="" />
+		</record>
+	</input>
+	<output>
+		<record name="out" type="0" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="userID" type="1" size="0" bindname="userID" fieldformat="" validre="" constvalue="" /> 
+			<field name="seq" type="1" size="0" bindname="seq" fieldformat="" validre="" constvalue="" /> 
+			<field name="flag" type="1" size="0" bindname="flag" fieldformat="" validre="" constvalue="" /> 
+			<field name="code" type="1" size="0" bindname="code" fieldformat="" validre="" constvalue="" /> 
+			<field name="board" type="1" size="0" bindname="board" fieldformat="" validre="" constvalue="" /> 
+			<field name="last" type="1" size="0" bindname="last" fieldformat="" validre="" constvalue="" /> 
+			<field name="cond" type="1" size="0" bindname="cond" fieldformat="" validre="" constvalue="" /> 
+			<field name="orderBS" type="1" size="0" bindname="orderBS" fieldformat="" validre="" constvalue="" /> 
+			<field name="orderCond" type="1" size="0" bindname="orderCond" fieldformat="" validre="" constvalue="" /> 
+			<field name="orderPrice" type="1" size="0" bindname="orderPrice" fieldformat="" validre="" constvalue="" /> 
+			<field name="orderQty" type="1" size="0" bindname="orderQty" fieldformat="" validre="" constvalue="" /> 
+			<field name="validDate" type="1" size="0" bindname="validDate" fieldformat="DATELONG(yyyy-MM-dd)" validre="" constvalue="" /> 
+			<field name="resultDate" type="1" size="0" bindname="resultDate" fieldformat="DATELONG(yyyy-MM-dd)" validre="" constvalue="" /> 
+			<field name="resultTime" type="1" size="0" bindname="resultTime" fieldformat="TIMELONG(HH:mm:ss)" validre="" constvalue="" /> 
+			<field name="resultOrderId" type="1" size="0" bindname="resultOrderId" fieldformat="" validre="" constvalue="" />
+			<field name="preSeqId" type="1" size="0" bindname="preSeqId" fieldformat="" validre="" constvalue="" />
+			<field name="mesg" type="1" size="0" bindname="mesg" fieldformat="" validre="" constvalue="" />
+			<field name="fDel" type="1" size="0" bindname="fDel" fieldformat="" validre="" constvalue="" />
+			<field name="delDt" type="1" size="0" bindname="delDt" fieldformat="" validre="" constvalue="" />
+			<field name="ordDesc" type="1" size="0" bindname="ordDesc" fieldformat="" validre="" constvalue="" />
+			<field name="codeC" type="11" size="0" bindname="codeC" fieldformat="" validre="" constvalue="" />
+		</record>
+	</output>
+</request>

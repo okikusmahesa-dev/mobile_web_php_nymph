@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="Login_Information" descript="[081500]Login Information" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="cnt" type="1" size="0" bindname="cnt" fieldformat="" validre="" constvalue="" /> 
+			<field name="user" type="1" size="0" bindname="user" fieldformat="" validre="" constvalue="" /> 
+			<field name="datefrom" type="1" size="0" bindname="datefrom" fieldformat="" validre="" constvalue="" /> 
+			<field name="dateto" type="1" size="0" bindname="dateto" fieldformat="" validre="" constvalue="" />
+		</record>
+	</input>
+	<output>
+		<record name="out" type="0" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="date" type="1" size="0" bindname="date" fieldformat="DATELONG(yyyy-MM-dd)" validre="" constvalue="" /> 
+			<field name="user" type="7" size="0" bindname="user" fieldformat="" validre="" constvalue="" /> 
+			<field name="time" type="2" size="0" bindname="time" fieldformat="TIMELONG(HH:mm:ss)" validre="" constvalue="" /> 
+			<field name="status" type="7" size="0" bindname="status" fieldformat="" validre="" constvalue="" />
+		</record>
+	</output>
+</request>

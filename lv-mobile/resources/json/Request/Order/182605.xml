@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="[082600]" descript="[082600]Control Bokking Order(GTC/overnight) List" >
+    <input>
+        <record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+            <field name="userID" type="1" size="0" bindname="userID" fieldformat="" validre="" constvalue="" />
+            <field name="state" type="1" size="0" bindname="state" fieldformat="" validre="" constvalue="" />
+        </record>
+    </input>
+    <output>
+        <record name="out" type="0" size="0" sizetype="0"  sizeformat="" sizefield="" >
+           <field name="time" type="1" size="0" bindname="time" fieldformat="STRING(HH:mm:ss)" validre="" constvalue="" /> 
+            <field name="userId" type="1" size="0" bindname="userId" fieldformat="" validre="" constvalue="" /> 
+            <field name="UserNm" type="1" size="0" bindname="UserNm" fieldformat="" validre="" constvalue="" /> 
+            <field name="orderId" type="2" size="0" bindname="orderId" fieldformat="" validre="" constvalue="" /> 
+            <field name="marketOrderId" type="1" size="0" bindname="marketOrderId" fieldformat="" validre="" constvalue="" /> 
+            <field name="code" type="1" size="0" bindname="code" fieldformat="" validre="" constvalue="" /> 
+            <field name="board" type="1" size="0" bindname="board" fieldformat="" validre="" constvalue="" /> 
+            <field name="buySell" type="1" size="0" bindname="buySell" fieldformat="" validre="" constvalue="" /> 
+            <field name="date" type="1" size="0" bindname="date" fieldformat="DATELONG(yyyy-MM-dd)" validre="" constvalue="" /> 
+            <field name="price" type="2" size="0" bindname="price" fieldformat="DFMT(%.0f),COMMA(3)" validre="" constvalue="" /> 
+            <field name="qty" type="1" size="0" bindname="qty" fieldformat="DFMT(%.0f),COMMA(3)" validre="" constvalue="" />    
+            <field name="matchedQty" type="1" size="0" bindname="matchedQty" fieldformat="DFMT(%.0f),COMMA(3)" validre="" constvalue="" /> 
+            <field name="balQty" type="1" size="0" bindname="balQty" fieldformat="DFMT(%.0f),COMMA(3)" validre="" constvalue="" /> 
+            <field name="status" type="1" size="0" bindname="status" fieldformat="" validre="" constvalue="" /> 
+            <field name="queue" type="1" size="0" bindname="queue" fieldformat="" validre="" constvalue="" /> 
+            <field name="prevOrder" type="1" size="0" bindname="prevOrder" fieldformat="" validre="" constvalue="" /> 
+            <field name="bsFlagC" type="10" size="0" bindname="bsFlagC" fieldformat="" validre="" constvalue="" /> 
+            <field name="codeC" type="11" size="0" bindname="codeC" fieldformat="" validre="" constvalue="" /> 
+        </record>
+    </output>
+</request>

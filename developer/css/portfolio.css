@@ -1,0 +1,77 @@
+.grid-def {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	border-collapse:collapse;
+	border:1px solid black;
+}
+.col-header {
+	text-align : center;
+	background-color: #b9c9f3;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#e3e3e3), color-stop(.6,#b9c9fe));
+	background-image: -moz-linear-gradient(top, #D6D6D6, #B0B0B0, #b9c9fe 90%);
+}
+.data-row {height:23px;}
+.bid-qty {
+	background-color:#feeeee; height:23px; border:1px solid black;
+	text-align : right;
+}
+.bid-price {
+	background-color:#feeeee;; border:1px solid black;
+	text-align : center;
+}
+.off-qty {
+	background-color:#e4f2fa; height:23px; border:1px solid black;
+	text-align : center;
+}
+.off-price {
+	background-color:#e4f2fa; border:1px solid black;
+	text-align : right;
+}
+.r-oddrow {
+	background-color:#f0f0f6; border:1px solid black;
+}
+.r-evenrow {
+	background-color:#ffffff; border:1px solid black;
+}
+.r-time {
+	background-color:#ffffff; height:23px; border:1px solid black;
+}
+.r-btn {
+	text-align:center;height:23px; border:1px solid black;
+}
+.r-code {
+	text-align:center;height:23px; border:1px solid black;
+}
+.r-prc {
+	text-align:right;height:23px; border:1px solid black;
+}
+.r-chg {
+	text-align:right;height:23px; border:1px solid black;
+}
+.r-chgR {
+	text-align:right;height:23px; border:1px solid black;
+}
+.r-shares {
+	text-align:right;height:23px; border:1px solid black;
+}
+.r-price {
+	text-align:right;height:23px; border:1px solid black;
+}
+.r-qty {
+	text-align:right;height:23px; border:1px solid black;
+}
+.r-rate {
+	text-align:right;height:23px; border:1px solid black;
+}
+.r-buyer {
+	height:23px; border:1px solid black;
+}
+.r-btype {
+	height:23px; border:1px solid black;
+}
+.r-stype {
+	height:23px; border:1px solid black;
+}
+.r-seller {
+	height:23px; border:1px solid black;
+}
+

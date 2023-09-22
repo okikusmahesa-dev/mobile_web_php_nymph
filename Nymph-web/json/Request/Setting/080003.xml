@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="[080003]" descript="[080003]User/ID Update" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="loginID" type="1" size="0" bindname="loginID" fieldformat="" validre="" constvalue="" /> 
+			<field name="userID" type="1" size="0" bindname="userID" fieldformat="" validre="" constvalue="" /> 
+			<field name="userName" type="1" size="0" bindname="userName" fieldformat="" validre="" constvalue="" /> 
+			<field name="userRight" type="1" size="0" bindname="userRight" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</input>
+	<output>
+		<record name="out" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="status" type="1" size="0" bindname="status" fieldformat="" validre="" constvalue="" /> 
+			<field name="mesg" type="1" size="0" bindname="mesg" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</output>
+</request>

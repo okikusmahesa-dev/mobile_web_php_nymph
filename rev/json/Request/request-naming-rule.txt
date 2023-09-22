@@ -1,0 +1,12 @@
+
+input	:	in
+output	:	out
+
+volumn	:	vol
+price	:	price
+change	:	chg
+changerate	:	chgR
+
+
+date	: string
+¼Ò¼ýÁ¡	:	BigDecimal

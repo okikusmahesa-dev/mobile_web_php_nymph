@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="612300" descript="[612300] get User Name">
+	<input>
+		<record name="in" type="1" size="0" sizetype="0" sizeformat="" sizefield="" />
+			<field name="loginId" type="1" size="0" bindname="loginId" fieldformat="" validre="" constvalue="" />		
+		</record>
+	</input>
+	<output>
+		<record name="out" type="0" size="0" sizeformat="" sizefield="">
+			<field name="notif" type="1" size="0" bindname="notif" fieldformat="" validre="" constvalue="" />
+		</record>
+	</output>
+</request>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="One_triggers_Other" descript="[187000]" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="userId" type="1" size="0" bindname="userId" fieldformat="" validre="" constvalue="" /> 
+			<field name="dealerId" type="1" size="0" bindname="dealerId" fieldformat="" validre="" constvalue="" /> 
+			<field name="pin" type="1" size="0" bindname="pin" fieldformat="" validre="" constvalue="" /> 
+			<field name="code" type="1" size="0" bindname="code" fieldformat="" validre="" constvalue="" /> 
+			<field name="price" type="3" size="0" bindname="price" fieldformat="" validre="" constvalue="" /> 
+			<field name="qty" type="2" size="0" bindname="qty" fieldformat="" validre="" constvalue="" /> 
+			<field name="lot" type="2" size="0" bindname="lot" fieldformat="" validre="" constvalue="" /> 
+			<field name="mkt" type="2" size="0" bindname="mkt" fieldformat="" validre="" constvalue="" /> 
+			<field name="sellPrice1" type="2" size="0" bindname="sellPrice1" fieldformat="" validre="" constvalue="" /> 
+			<field name="sellQty1" type="2" size="0" bindname="sellQty1" fieldformat="" validre="" constvalue="" /> 
+			<field name="sellPrice2" type="2" size="0" bindname="sellPrice2" fieldformat="" validre="" constvalue="" /> 
+			<field name="sellQty2" type="2" size="0" bindname="sellQty2" fieldformat="" validre="" constvalue="" /> 
+			<field name="sellPrice3" type="2" size="0" bindname="sellPrice3" fieldformat="" validre="" constvalue="" /> 
+			<field name="sellQty3" type="2" size="0" bindname="sellQty3" fieldformat="" validre="" constvalue="" /> 
+			<field name="sellPrice4" type="2" size="0" bindname="sellPrice4" fieldformat="" validre="" constvalue="" /> 
+			<field name="sellQty4" type="2" size="0" bindname="sellQty4" fieldformat="" validre="" constvalue="" /> 
+			<field name="sellPrice5" type="2" size="0" bindname="sellPrice5" fieldformat="" validre="" constvalue="" /> 
+			<field name="sellQty5" type="2" size="0" bindname="sellQty5" fieldformat="" validre="" constvalue="" /> 
+			<field name="expireDate" type="1" size="0" bindname="expireDate" fieldformat="" validre="" constvalue="" />
+		</record>
+	</input>
+	<output>
+		<record name="out" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="status" type="1" size="0" bindname="status" fieldformat="" validre="" constvalue="" /> 
+			<field name="mesg" type="1" size="0" bindname="mesg" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</output>
+</request>

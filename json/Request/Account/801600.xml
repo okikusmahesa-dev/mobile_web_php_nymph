@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="[801600]" descript="[801700]Compose Mail" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="Name" type="1" size="0" bindname="Name" fieldformat="" validre="" constvalue="" /> 
+			<field name="ClientNo" type="1" size="0" bindname="ClientNo" fieldformat="" validre="" constvalue="" /> 
+			<field name="kd_saham" type="1" size="0" bindname="kd_saham" fieldformat="" validre="" constvalue="" /> 
+			<field name="jml_saham" type="1" size="0" bindname="jml_saham" fieldformat="" validre="" constvalue="" /> 
+			<field name="price_saham" type="1" size="0" bindname="price_saham" fieldformat="" validre="" constvalue="" /> 
+			<field name="tot_saham" type="1" size="0" bindname="tot_saham" fieldformat="" validre="" constvalue="" /> 
+			<field name="exercise_date" type="1" size="0" bindname="exercise_date" fieldformat="" validre="" constvalue="" /> 
+					
+		</record>
+	</input>
+	<output>
+		<record name="out" type="0" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="Name" type="1" size="0" bindname="Name" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</output>
+</request>

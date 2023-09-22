@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="[082200]" descript="[082200]Cek Login Id" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="user_id" type="1" size="0" bindname="user_id" fieldformat="" validre="" constvalue="" />
+		</record>
+	</input>
+	<output>
+		<record name="out" type="0" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="login_id" type="1" size="0" bindname="login_id" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</output>
+</request>

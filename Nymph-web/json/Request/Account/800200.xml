@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="FundTransferList" descript="[800200]Fund Transfer List" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="id" type="1" size="0" bindname="id" fieldformat="" validre="" constvalue="" /> 
+			<field name="pin" type="1" size="0" bindname="pin" fieldformat="" validre="" constvalue="" /> 
+			<field name="fromD" type="1" size="0" bindname="fromD" fieldformat="" validre="" constvalue="" /> 
+			<field name="toD" type="1" size="0" bindname="toD" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</input>
+	<output>
+		<record name="out" type="0" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="clientName" type="1" size="0" bindname="clientName" fieldformat="" validre="" constvalue="" /> 
+			<field name="date" type="1" size="0" bindname="date" fieldformat="" validre="" constvalue="" /> 
+			<field name="amt" type="7" size="0" bindname="amt" fieldformat="" validre="" constvalue="" /> 
+			<field name="bankNm" type="1" size="0" bindname="bankNm" fieldformat="" validre="" constvalue="" /> 
+			<field name="bankAcNo" type="3" size="0" bindname="bankAcNo" fieldformat="" validre="" constvalue="" /> 
+			<field name="stat" type="1" size="0" bindname="stat" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</output>
+</request>

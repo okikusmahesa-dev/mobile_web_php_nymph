@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="Broker_Transaction_By_Stock" descript="[100800]Broker Transaction by Stock" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="code" type="1" size="0" bindname="code" fieldformat="" validre="" constvalue="" /> 
+			<field name="board" type="1" size="0" bindname="board" fieldformat="" validre="" constvalue="" /> 
+			<field name="from" type="1" size="0" bindname="from" fieldformat="" validre="" constvalue="" /> 
+			<field name="to" type="1" size="0" bindname="to" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</input>
+	<output>
+		<record name="out" type="0" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="code" type="1" size="0" bindname="code" fieldformat="" validre="" constvalue="" /> 
+			<field name="buyFreq" type="7" size="0" bindname="buyFreq" fieldformat="COMMA(3)" validre="" constvalue="" /> 
+			<field name="buyVol" type="7" size="0" bindname="buyVol" fieldformat="COMMA(3)" validre="" constvalue="" /> 
+			<field name="buyAvg" type="7" size="0" bindname="buyAvg" fieldformat="COMMA(3)" validre="" constvalue="" /> 
+			<field name="buyR" type="7" size="0" bindname="buyR" fieldformat="" validre="" constvalue="" /> 
+			<field name="sellFreq" type="7" size="0" bindname="sellFreq" fieldformat="COMMA(3)" validre="" constvalue="" /> 
+			<field name="sellVol" type="7" size="0" bindname="sellVol" fieldformat="COMMA(3)" validre="" constvalue="" /> 
+			<field name="sellAvg" type="7" size="0" bindname="sellAvg" fieldformat="COMMA(3)" validre="" constvalue="" /> 
+			<field name="sellR" type="7" size="0" bindname="sellR" fieldformat="" validre="" constvalue="" /> 
+			<field name="netVol" type="7" size="0" bindname="netVol" fieldformat="ABS(T),COMMA(3)" validre="" constvalue="" /> 
+			<field name="netVolC" type="10" size="0" bindname="netVolC" fieldformat="COMMA(3)" validre="" constvalue="" /> 
+			<field name="buyVal" type="11" size="0" bindname="buyVal" fieldformat="DFMT(%.0f),COMMA(3)" validre="" constvalue="" /> 
+			<field name="sellVal" type="11" size="0" bindname="sellVal" fieldformat="DFMT(%.0f),COMMA(3)" validre="" constvalue="" /> 
+			<field name="totVal" type="11" size="0" bindname="totVal" fieldformat="ABS(T),DFMT(%.0f),COMMA(3)" validre="" constvalue="" />
+			<field name="netVal" type="11" size="0" bindname="netVal" fieldformat="ABS(T),DFMT(%.0f),COMMA(3)" validre="" constvalue="" />
+			<field name="netVaC" type="11" size="0" bindname="netValC" fieldformat="ABS(T),DFMT(%.0f),COMMA(3)" validre="" constvalue="" />
+			<field name="totFreq" type="11" size="0" bindname="totFreq" fieldformat="ABS(T),DFMT(%.0f),COMMA(3)" validre="" constvalue="" /> 
+			<field name="totVol" type="11" size="0" bindname="totVol" fieldformat="ABS(T),DFMT(%.0f),COMMA(3)" validre="" constvalue="" /> 
+		</record>
+	</output>
+</request>

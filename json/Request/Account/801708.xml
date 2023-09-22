@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="[801708]" descript="[801708]Compose Mail" >
+	<output>
+		<record name="out" type="0" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="tDate" type="1" size="0" bindname="tDate" fieldformat="DATELONG(yyyy-MM-dd)" validre="" constvalue="" /> 
+		</record>
+	</output>
+</request>

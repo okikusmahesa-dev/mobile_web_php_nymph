@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="[000215]" descript="[000215]blockhist" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="login_id" type="1" size="0" bindname="login_id" fieldformat="" validre="" constvalue="" /> 
+			<field name="action_by" type="1" size="0" bindname="action_by" fieldformat="" validre="" constvalue="" />
+			<field name="remark" type="1" size="0" bindname="remark" fieldformat="" validre="" constvalue="" />
+			<field name="stat" type="1" size="0" bindname="stat" fieldformat="" validre="" constvalue="" />
+		</record>
+	</input>
+	<output>
+		<record name="out" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="stt" type="1" size="0" bindname="stt" fieldformat="" validre="" constvalue="" />
+		</record>
+	</output>
+</request>

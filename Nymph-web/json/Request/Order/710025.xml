@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="[710024]" descript="[710024]Check Bussiness Day" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="trade_date" type="1" size="0" bindname="trade_date" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</input>
+	<output>
+		<record name="out" type="0" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="trade_date" type="1" size="0" bindname="trade_date" fieldformat="" validre="" constvalue="" /> 
+			<field name="trade_flag" type="1" size="0" bindname="trade_flag" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</output>
+</request>

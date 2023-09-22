@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="[000200]" descript="[000200]PIN" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="userId" type="1" size="0" bindname="userId" fieldformat="" validre="" constvalue="" />
+			<field name="pin" type="1" size="0" bindname="pin" fieldformat="" validre="" constvalue="" />
+		</record>
+	</input>
+	<output>
+		<record name="out" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="status" type="1" size="0" bindname="status" fieldformat="" validre="" constvalue="" /> 
+			<field name="message" type="1" size="0" bindname="message" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</output>
+</request>

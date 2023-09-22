@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="UserList" descript="[000116]User(Account) List" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+            <field name="loginId" type="1" size="0" bindname="loginId" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</input>
+	<output>
+		<record name="out" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+            <field name="userId" type="1" size="0" bindname="userId" fieldformat="" validre="" constvalue="" />
+            <field name="userType" type="1" size="0" bindname="userType" fieldformat="" validre="" constvalue="" />
+            <field name="userStatus" type="1" size="0" bindname="userStatus" fieldformat="" validre="" constvalue="" />
+            <field name="fee" type="1" size="0" bindname="fee" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</output>
+</request>

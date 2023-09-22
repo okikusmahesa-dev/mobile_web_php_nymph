@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="IndexDetailTransactionList" descript="[190003]IndexDetail Transaction List" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="code" type="1" size="0" bindname="code" fieldformat="" validre="" constvalue="" /> 
+			<field name="cnt" type="1" size="0" bindname="cnt" fieldformat="" validre="" constvalue="" /> 
+			<field name="key" type="1" size="0" bindname="key" fieldformat="" validre="" constvalue="" />
+			<field name="prevNext" type="1" size="0" bindname="prevNext" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</input>
+	<output>
+		<record name="out" type="0" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="code" type="1" size="0" bindname="code" fieldformat="" validre="" constvalue="" /> 
+			<field name="price" type="7" size="0" bindname="price" fieldformat="COMMA(3)" validre="" constvalue="" /> 
+			<field name="chgP" type="3" size="0" bindname="chgP" fieldformat="DFMT(%.2f)" validre="" constvalue="" /> 
+			<field name="chg" type="3" size="0" bindname="chg" fieldformat="ABS(T),DFMT(%.2f)" validre="" constvalue="" /> 
+			<field name="chgR" type="7" size="0" bindname="chgR" fieldformat="DFMT(%.2f%%),ABS(T)" validre="" constvalue="" /> 
+			<field name="freq" type="7" size="0" bindname="freq" fieldformat="COMMA(3)" validre="" constvalue="" /> 
+			<field name="val" type="7" size="0" bindname="val" fieldformat="COMMA(3)" validre="" constvalue="" /> 
+			<field name="vol" type="7" size="0" bindname="vol" fieldformat="COMMA(3)" validre="" constvalue="" /> 
+			<field name="lot" type="11" size="0" bindname="lot" fieldformat="DFMT(%.0f),COMMA(3)" validre="" constvalue="" /> 
+			<field name="chgC" type="11" size="0" bindname="chgC" fieldformat="" validre="" constvalue="" />
+			<field name="codeC" type="11" size="0" bindname="codeC" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</output>
+</request>

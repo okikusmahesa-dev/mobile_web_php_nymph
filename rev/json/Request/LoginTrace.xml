@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="LoginTrace" descript="[710009] Login Trace" >
+	<input>
+			<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+						<field name="userId" type="1" size="0" bindname="userId" fieldformat="" validre="" constvalue="" /> 
+						<field name="dateA" type="1" size="0" bindname="dateA" fieldformat="" validre="" constvalue="" /> 
+						<field name="dateB" type="1" size="0" bindname="dateB" fieldformat="" validre="" constvalue="" /> 
+						<field name="port" type="1" size="0" bindname="port" fieldformat="" validre="" constvalue="" /> 
+			</record>
+	</input>
+	<output>
+			<record name="out" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+						<field name="login_id" type="1" size="0" bindname="login_id" fieldformat="" validre="" constvalue="" /> 
+						<field name="user_name" type="1" size="0" bindname="user_name" fieldformat="" validre="" constvalue="" /> 
+						<field name="noId" type="11" size="0" bindname="noId" fieldformat="" validre="" constvalue="" /> 
+			</record>
+	</output>
+</request>
+

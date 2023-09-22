@@ -1,0 +1,140 @@
+#sidebar {
+    width: 290px;
+    position: fixed;
+    top: 0;
+    left: -315px;
+    height: 100vh;
+    z-index: 1050;
+    background: #fff;
+    color: #fff;
+    transition: all 0.3s;
+    overflow-y: scroll;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+#sidebar.active {
+    left: 0;
+}
+
+#dismiss {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: #0e82af;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#dismiss:hover {
+    background: #fff;
+    color: #0e82af;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1030;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+.overlay.active {
+    display: block;
+    opacity: 1;
+}
+
+#sidebar .sidebar-header {
+    padding: 57px 10px 10px 15px;
+    background: #0e82af;
+    font-size: 13px;
+}
+
+#sidebar ul.components {
+    border-bottom: 1px solid #dfdfdf;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li {
+    padding: .1rem 1.25rem;
+}
+
+#sidebar ul li a {
+    color: #0e82af;
+    padding: 10px;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: #0e82af;
+    background: #fff;
+}
+
+#sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #0e82af;
+    background: #fff;
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+ul ul a {
+    padding-left: 30px !important;
+    background: #fff;
+}
+
+ul.CTAs {
+    padding-bottom: 5px;
+}
+
+ul.CTAs a {
+    text-align: center;
+    display: block;
+    margin-bottom: 5px;
+}
+
+a.download {
+    background: #fff;
+    color: #7386D5;
+}
+
+a.article,
+a.article:hover {
+    background: #6d7fcc !important;
+    color: #fff !important;
+}
+
+/* .list-group-item{
+    padding: .1rem 1.25rem;
+} */
+
+#content {
+    width: 100%;
+    min-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+}

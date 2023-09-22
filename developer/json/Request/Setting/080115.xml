@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="[801430]" descript="[801430]update" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="id" type="1" size="0" bindname="id" fieldformat="" validre="" constvalue="" /> 
+			
+		</record>
+	</input>
+	<output>
+		<record name="out" type="0" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="status" type="1" size="0" bindname="status" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</output>
+</request>

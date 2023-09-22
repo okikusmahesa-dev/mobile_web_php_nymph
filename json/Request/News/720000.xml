@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="NewsList" descript="[720000]News List" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="from" type="1" size="0" bindname="from" fieldformat="" validre="" constvalue="" /> 
+			<field name="seq" type="1" size="0" bindname="seq" fieldformat="" validre="" constvalue="" /> 
+			<field name="source" type="1" size="0" bindname="source" fieldformat="" validre="" constvalue="" /> 
+			<field name="cnt" type="2" size="0" bindname="cnt" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</input>
+	<output>
+		<record name="out" type="0" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="date" type="1" size="0" bindname="date" fieldformat="DATELONG(yyyy-MM-dd)" validre="" constvalue="" /> 
+			<field name="seq" type="1" size="0" bindname="seq" fieldformat="" validre="" constvalue="" /> 
+			<field name="time" type="1" size="0" bindname="time" fieldformat="TIMELONG(HH:mm:ss)" validre="" constvalue="" /> 
+			<field name="from" type="1" size="0" bindname="from" fieldformat="" validre="" constvalue="" /> 
+			<field name="title" type="1" size="0" bindname="title" fieldformat="" validre="" constvalue="" /> 
+			<field name="code" type="1" size="0" bindname="code" fieldformat="" validre="" constvalue="" /> 
+		</record>
+		<record name="out2" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="ticker" type="11" size="0" bindname="ticker" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</output>
+</request>

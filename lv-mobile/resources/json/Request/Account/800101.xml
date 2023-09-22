@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="FundTransfer" descript="[800101]Fund Transfer" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="id" type="1" size="0" bindname="id" fieldformat="" validre="" constvalue="" /> 
+			<field name="pin" type="1" size="0" bindname="pin" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</input>
+	<output>
+		<record name="out" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="amount" type="7" size="0" bindname="amount" fieldformat="" validre="" constvalue="" /> 
+			<field name="text" type="1" size="0" bindname="text" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</output>
+</request>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="[080114]" descript="[080114]message" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="id" type="1" size="0" bindname="id" fieldformat="" validre="" constvalue="" />
+			<field name="val" type="1" size="0" bindname="val" fieldformat="" validre="" constvalue="" />
+		</record>
+	</input>
+</request>

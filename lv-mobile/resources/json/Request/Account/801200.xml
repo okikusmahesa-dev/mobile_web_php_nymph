@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="[801200]" descript="[801200]Profit Ranking Detail" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="clientID" type="1" size="0" bindname="clientID" fieldformat="" validre="" constvalue="" /> 
+			<field name="date" type="1" size="0" bindname="date" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</input>
+	<output>
+		<record name="out" type="0" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="stkID" type="1" size="0" bindname="stkID" fieldformat="" validre="" constvalue="" /> 
+			<field name="balance" type="2" size="0" bindname="balance" fieldformat="COMMA(3)" validre="" constvalue="" /> 
+			<field name="currID" type="1" size="0" bindname="currID" fieldformat="COMMA(3)" validre="" constvalue="" /> 
+			<field name="avgPrice" type="7" size="0" bindname="avgPrice" fieldformat="DFMT(%.0f),COMMA(3)" validre="" constvalue="" /> 
+			<field name="mktPrice" type="3" size="0" bindname="mktPrice" fieldformat="COMMA(3)" validre="" constvalue="" /> 
+			<field name="chgP" type="7" size="0" bindname="chgP" fieldformat="" validre="" constvalue="" /> 
+			<field name="chg" type="7" size="0" bindname="chg" fieldformat="COMMA(3)" validre="" constvalue="" /> 
+			<field name="chgR" type="7" size="0" bindname="chgR" fieldformat="ABS(T),DFMT(%.2f%%)" validre="" constvalue="" /> 
+			<field name="stkVal" type="3" size="0" bindname="stkVal" fieldformat="DFMT(%.0f),COMMA(3)" validre="" constvalue="" /> 
+			<field name="lqVal" type="3" size="0" bindname="lqVal" fieldformat="DFMT(%.0f),COMMA(3)" validre="" constvalue="" /> 
+			<field name="mktVal" type="3" size="0" bindname="mktVal" fieldformat="DFMT(%.0f),COMMA(3)" validre="" constvalue="" /> 
+			<field name="profit" type="7" size="0" bindname="profit" fieldformat="DFMT(%.0f),COMMA(3)" validre="" constvalue="" /> 
+			<field name="unrealized" type="3" size="0" bindname="unrealized" fieldformat="COMMA(3)" validre="" constvalue="" /> 
+			<field name="bebas" type="3" size="0" bindname="bebas" fieldformat="COMMA(3)" validre="" constvalue="" /> 
+			<field name="jaminan" type="3" size="0" bindname="jaminan" fieldformat="COMMA(3)" validre="" constvalue="" /> 
+			<field name="buy" type="2" size="0" bindname="buy" fieldformat="LFMT(%04d),COMMA(3)" validre="" constvalue="" /> 
+			<field name="sell" type="2" size="0" bindname="sell" fieldformat="LFMT(%04d),COMMA(3)" validre="" constvalue="" /> 
+			<field name="bid" type="2" size="0" bindname="bid" fieldformat="LFMT(%04d),COMMA(3)" validre="" constvalue="" /> 
+			<field name="offer" type="2" size="0" bindname="offer" fieldformat="LFMT(%04d),COMMA(3)" validre="" constvalue="" /> 
+			<field name="liquidity" type="3" size="0" bindname="liquidity" fieldformat="COMMA(3)" validre="" constvalue="" /> 
+			<field name="clsPrice" type="3" size="0" bindname="clsPrice" fieldformat="COMMA(3)" validre="" constvalue="" /> 
+			<field name="hairCut" type="7" size="0" bindname="hairCut" fieldformat="DFMT(%.0f),COMMA(3)" validre="" constvalue="" /> 
+			<field name="profitVal" type="11" size="0" bindname="profitVal" fieldformat="DFMT(%.0f),ABS(T),COMMA(3)" validre="" constvalue="" /> 
+			<field name="profitRate" type="14" size="0" bindname="profitRate" fieldformat="DFMT(%.2f),ABS(T)" validre="" constvalue="" /> 
+			<field name="lot" type="11" size="0" bindname="lot" fieldformat="COMMA(3)" validre="" constvalue="" /> 
+			<field name="profitC" type="11" size="0" bindname="profitC" fieldformat="" validre="" constvalue="" /> 
+			<field name="z" type="11" size="0" bindname="z" fieldformat="" validre="" constvalue="" /> 
+			<field name="seq" type="11" size="0" bindname="seq" fieldformat="" validre="" constvalue="" /> 
+		</record>
+		<record name="out2" type="0" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="totBuyprice" type="11" size="0" bindname="totBuyprice" fieldformat="DFMT(%.2f),COMMA(3)" validre="" constvalue="" /> 
+			<field name="totLot" type="11" size="0" bindname="totLot" fieldformat="DFMT(%.0f),COMMA(3)" validre="" constvalue="" /> 
+			<field name="totMktVal" type="11" size="0" bindname="totMktVal" fieldformat="DFMT(%.0f),COMMA(3)" validre="" constvalue="" /> 
+			<field name="totBal" type="11" size="0" bindname="totBal" fieldformat="DFMT(%.0f),COMMA(3)" validre="" constvalue="" /> 
+			<field name="totMVal" type="11" size="0" bindname="totMVal" fieldformat="DFMT(%.0f),COMMA(3)" validre="" constvalue="" /> 
+			<field name="totHcVal" type="11" size="0" bindname="totHcVal" fieldformat="DFMT(%.0f),COMMA(3)" validre="" constvalue="" /> 
+			<field name="totPotLqVal" type="11" size="0" bindname="totPotLqVal" fieldformat="DFMT(%.0f),COMMA(3)" validre="" constvalue="" /> 
+		</record>
+	</output>
+</request>

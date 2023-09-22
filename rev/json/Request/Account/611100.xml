@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="Portfolio_Ugrid1" descript="[810101]" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="Client" type="1" size="0" bindname="Client" fieldformat="" validre="" constvalue="" /> 
+			<field name="Client_Name" type="1" size="0" bindname="Client_Name" fieldformat="" validre="" constvalue="" /> 
+			<field name="Date" type="1" size="0" bindname="Client" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</input>
+	<output>
+		<record name="out" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="Stk_ID" type="1" size="0" bindname="Stk_ID" fieldformat="" validre="" constvalue="" />
+			<field name="Bgn_Blnc" type="1" size="0" bindname="Bgn_Blnc" fieldformat="" validre="" constvalue="" />
+			<field name="Lot_Blnc" type="1" size="0" bindname="Lot_Blnc" fieldformat="" validre="" constvalue="" />
+			<field name="Net_Blnc" type="1" size="0" bindname="Net_Blnc" fieldformat="" validre="" constvalue="" />
+			<field name="LotNet_Blnc" type="1" size="0" bindname="LotNet_Blnc" fieldformat="" validre="" constvalue="" />
+			<field name="Stk_Val" type="1" size="0" bindname="Stk_Val" fieldformat="" validre="" constvalue="" />
+			<field name="Mkt_Val" type="1" size="0" bindname="Mkt_Val" fieldformat="" validre="" constvalue="" />
+			<field name="Avg_Prc" type="1" size="0" bindname="Avg_Prc" fieldformat="" validre="" constvalue="" />
+			<field name="Cls_Prc" type="1" size="0" bindname="Cls_Prc" fieldformat="" validre="" constvalue="" />
+			<field name="Mrkt_Prc" type="1" size="0" bindname="Mrkt_Prc" fieldformat="" validre="" constvalue="" />
+		</record>
+	</output>
+</request>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="MyAccountCash" descript="[800002]My Account Cash" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="id" type="1" size="0" bindname="id" fieldformat="" validre="" constvalue="" /> 
+			<field name="pin" type="1" size="0" bindname="pin" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</input>
+	<output>
+		<record name="out" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="rcvT0" type="2" size="0" bindname="rcvT0" fieldformat="" validre="" constvalue="" /> 
+			<field name="rcvT1" type="2" size="0" bindname="rcvT1" fieldformat="" validre="" constvalue="" /> 
+			<field name="rcvT2" type="2" size="0" bindname="rcvT2" fieldformat="" validre="" constvalue="" /> 
+			<field name="rcvT3" type="2" size="0" bindname="rcvT3" fieldformat="" validre="" constvalue="" /> 
+			<field name="payT0" type="2" size="0" bindname="payT0" fieldformat="" validre="" constvalue="" /> 
+			<field name="payT1" type="2" size="0" bindname="payT1" fieldformat="" validre="" constvalue="" /> 
+			<field name="payT2" type="2" size="0" bindname="payT2" fieldformat="" validre="" constvalue="" /> 
+			<field name="payT3" type="2" size="0" bindname="payT3" fieldformat="" validre="" constvalue="" /> 
+			<field name="cshT0" type="2" size="0" bindname="cshT0" fieldformat="" validre="" constvalue="" /> 
+			<field name="cshT1" type="2" size="0" bindname="cshT1" fieldformat="" validre="" constvalue="" /> 
+			<field name="cshT2" type="2" size="0" bindname="cshT2" fieldformat="" validre="" constvalue="" /> 
+			<field name="cshT3" type="2" size="0" bindname="cshT3" fieldformat="" validre="" constvalue="" /> 
+			<field name="netT0" type="2" size="0" bindname="netT0" fieldformat="" validre="" constvalue="" /> 
+			<field name="netT1" type="2" size="0" bindname="netT1" fieldformat="" validre="" constvalue="" /> 
+			<field name="netT2" type="2" size="0" bindname="netT2" fieldformat="" validre="" constvalue="" /> 
+			<field name="netT3" type="2" size="0" bindname="netT3" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</output>
+</request>

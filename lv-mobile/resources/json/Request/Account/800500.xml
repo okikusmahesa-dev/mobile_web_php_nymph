@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="Invest_Account_Or_Financial_History" descript="[800500]Financial Invest Account" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="userID" type="1" size="0" bindname="userID" fieldformat="" validre="" constvalue="" /> 
+			<field name="pin" type="1" size="0" bindname="pin" fieldformat="" validre="" constvalue="" /> 
+			<field name="fromD" type="1" size="0" bindname="fromD" fieldformat="" validre="" constvalue="" /> 
+			<field name="toD" type="1" size="0" bindname="toD" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</input>
+	<output>
+		<record name="out" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="clientName" type="1" size="0" bindname="clientName" fieldformat="" validre="" constvalue="" /> 
+			<field name="no" type="1" size="0" bindname="no" fieldformat="" validre="" constvalue="" /> 
+			<field name="date" type="1" size="0" bindname="date" fieldformat="" validre="" constvalue="" /> 
+			<field name="detil" type="1" size="0" bindname="detil" fieldformat="" validre="" constvalue="" /> 
+			<field name="amt" type="1" size="0" bindname="amt" fieldformat="" validre="" constvalue="" /> 
+			<field name="stkNm" type="1" size="0" bindname="stkNm" fieldformat="" validre="" constvalue="" /> 
+			<field name="IOQty" type="1" size="0" bindname="IOQty" fieldformat="" validre="" constvalue="" /> 
+			<field name="price" type="1" size="0" bindname="price" fieldformat="" validre="" constvalue="" /> 
+			<field name="balAmt" type="1" size="0" bindname="balAmt" fieldformat="" validre="" constvalue="" /> 
+			<field name="balQty" type="1" size="0" bindname="balQty" fieldformat="" validre="" constvalue="" /> 
+			<field name="fee" type="1" size="0" bindname="fee" fieldformat="" validre="" constvalue="" /> 
+			<field name="paidAmt" type="1" size="0" bindname="paidAmt" fieldformat="" validre="" constvalue="" /> 
+			<field name="penalty" type="1" size="0" bindname="penalty" fieldformat="" validre="" constvalue="" /> 
+			<field name="addOut" type="1" size="0" bindname="addOut" fieldformat="" validre="" constvalue="" /> 
+			<field name="trdAmt" type="1" size="0" bindname="trdAmt" fieldformat="" validre="" constvalue="" /> 
+			<field name="whTax" type="1" size="0" bindname="whTax" fieldformat="" validre="" constvalue="" /> 
+			<field name="inTax" type="1" size="0" bindname="inTax" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</output>
+</request>

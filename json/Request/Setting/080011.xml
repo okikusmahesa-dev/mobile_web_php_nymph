@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="[000200]" descript="[000200]PIN" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="userID" type="1" size="0" bindname="userID" fieldformat="" validre="" constvalue="" />
+			<field name="block" type="1" size="0" bindname="block" fieldformat="" validre="" constvalue="" />
+		</record>
+	</input>
+	<output>
+		<record name="out" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="login_id" type="1" size="0" bindname="login_id" fieldformat="" validre="" constvalue="" /> 
+			<field name="user_id" type="1" size="0" bindname="user_id" fieldformat="" validre="" constvalue="" /> 
+			<field name="user_name" type="1" size="0" bindname="user_name" fieldformat="" validre="" constvalue="" />
+			<field name="entry_date" type="1" size="0" bindname="entry_date" fieldformat="" validre="" constvalue="" />
+			<field name="is_blocked" type="1" size="0" bindname="is_blocked" fieldformat="" validre="" constvalue="" />
+		</record>
+	</output>
+</request>

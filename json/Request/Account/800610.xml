@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="800610" descript="[800610] Tax List Buy">
+    <input>
+        <record name="in" type="1" size="0" sizetype="0" sizeformat="" sizefield="" />
+            <field name="loginId" type="1" size="0" bindname="loginId" fieldformat="" validre="" constvalue="" />
+            <field name="pin" type="1" size="0" bindname="pin" fieldformat="" validre="" constvalue="" />
+            <field name="dateFrom" type="1" size="0" bindname="dateFrom" fieldformat="" validre="" constvalue="" />
+            <field name="dateTo" type="1" size="0" bindname="dateTo" fieldformat="" validre="" constvalue="" />
+            <field name="code" type="1" size="0" bindname="code" fieldformat="" validre="" constvalue="" />
+            <field name="board" type="1" size="0" bindname="board" fieldformat="" validre="" constvalue="" />
+        </record>
+    </input>
+    <output>
+        <record name="out" type="0" size="0" sizeformat="" sizefield="">
+            <field name="code" type="1" size="0" bindname="code" fieldformat="" validre="" constvalue="" />
+            <field name="price" type="1" size="0" bindname="price" fieldformat="" validre="" constvalue="" />
+            <field name="qty" type="1" size="0" bindname="qty" fieldformat="" validre="" constvalue="" />
+            <field name="gamount" type="1" size="0" bindname="gamount" fieldformat="" validre="" constvalue="" />
+        </record>
+        <record name="out2" type="1" size="0" sizetype="0" sizeformat="" sizefield="">
+            <field name="totBuy" type="1" size="0" bindname="totBuy" fieldformat="" validre="" constvalue="" />
+        </record>
+    </output>
+</request>

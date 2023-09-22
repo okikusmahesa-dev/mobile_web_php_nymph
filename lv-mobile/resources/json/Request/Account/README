@@ -1,0 +1,2 @@
+pastikan encoding filenya utf-16le,(le= little endian)
+caranya file -i nmorTR.xml

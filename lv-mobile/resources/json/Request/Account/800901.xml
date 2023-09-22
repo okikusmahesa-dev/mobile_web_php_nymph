@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="Password" descript="[800900]Password" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="login_id" type="1" size="0" bindname="login_id" fieldformat="" validre="" constvalue="" />
+			<field name="password" type="1" size="0" bindname="password" fieldformat="" validre="" constvalue="" />
+		</record>
+	</input>
+	<output>
+		<record name="out" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="status" type="1" size="0" bindname="status" fieldformat="" validre="" constvalue="" /> 		
+			<field name="mesg" type="1" size="0" bindname="mesg" fieldformat="" validre="" constvalue="" /> 		
+		</record>
+	</output>
+</request>

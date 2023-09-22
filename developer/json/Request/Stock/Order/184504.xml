@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="[184504]" descript="[184504]Conditional Order(Set PreSeqNO/PreSeqNoW)" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="seqNo" type="1" size="0" bindname="seqNo" fieldformat="" validre="" constvalue="" /> 
+			<field name="preSeqNo" type="1" size="0" bindname="preSeqNo" fieldformat="" validre="" constvalue="" /> 
+			<field name="preSeqNoW" type="1" size="0" bindname="preSeqNoW" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</input>
+	<output>
+		<record name="out" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="status" type="1" size="0" bindname="status" fieldformat="" validre="" constvalue="" /> 
+			<field name="mesg" type="1" size="0" bindname="mesg" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</output>
+</request>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="[000101]cekPing" descript="[000106]cekPing" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="loginId" type="1" size="0" bindname="loginId" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</input>
+	<output>
+		<record name="out" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="ping" type="1" size="0" bindname="ping" fieldformat="" validre="" constvalue="" /> 
+			<field name="port" type="1" size="0" bindname="port" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</output>
+</request>

@@ -1,0 +1,12 @@
+.ui-icon-nmmts-running {
+	background-image : url("./img/running2.png");
+	background-size : 18px 18px;
+}
+.ui-icon-nmmts-favorite {
+	background-image : url("./img/favorite2.png");
+	background-size : 18px 18px;
+}
+.ui-icon-nmmts-portfolio {
+	background-image : url("./img/portfolio2.png");
+	background-size : 18px 18px;
+}

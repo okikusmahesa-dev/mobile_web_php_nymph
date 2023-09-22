@@ -1,0 +1,10 @@
+./Account/800011.xml:			<field name="portBuyAmt" type="2" size="0" bindname="portBuyAmt" fieldformat="" validre="" constvalue="" /> 
+./Account/800011.xml:			<field name="portMktAmt" type="2" size="0" bindname="portMktAmt" fieldformat="" validre="" constvalue="" /> 
+./Account/800011.xml:			<field name="portLiqAmt" type="2" size="0" bindname="portLiqAmt" fieldformat="" validre="" constvalue="" /> 
+./Account/555555.xml:			<field name="portBuyAmt" type="2" size="0" bindname="portBuyAmt" fieldformat="" validre="" constvalue="" /> 
+./Account/555555.xml:			<field name="portMktAmt" type="2" size="0" bindname="portMktAmt" fieldformat="" validre="" constvalue="" /> 
+./Account/555555.xml:			<field name="portLiqAmt" type="2" size="0" bindname="portLiqAmt" fieldformat="" validre="" constvalue="" /> 
+./LoginTrace.xml:						<field name="port" type="1" size="0" bindname="port" fieldformat="" validre="" constvalue="" /> 
+./Setting/000106.xml:			<field name="port" type="1" size="0" bindname="port" fieldformat="" validre="" constvalue="" /> 
+./Order/082800.xml:			<field name="port" type="1" size="0" bindname="port" fieldformat="" validre="" constvalue="" /> 
+./Order/082800.xml:			<field name="user_port" type="1" size="0" bindname="user_port" fieldformat="" validre="" constvalue="" /> 

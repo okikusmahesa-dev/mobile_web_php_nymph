@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="PotRatio" descript="[800011]CurRatio" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="userId"	type="1" size="0" bindname="userId"  fieldformat="" validre="" constvalue="" /> 
+			<field name="pin"  	type="1" size="0" bindname="pin" fieldformat="" validre="" constvalue="" /> 
+			<field name="code"  type="1" size="0" bindname="code" fieldformat="" validre="" constvalue="" /> 
+			<field name="price" type="1" size="0" bindname="price" fieldformat="" validre="" constvalue="" /> 
+			<field name="lot"   type="1" size="0" bindname="lot" fieldformat="" validre="" constvalue="" /> 
+			<field name="oldOrdNo"   type="1" size="0" bindname="oldOrdNo" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</input>
+	<output>
+		<record name="out" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="cash"       type="2" size="0" bindname="cash"       fieldformat="" validre="" constvalue="" /> 
+			<field name="openBuy"    type="2" size="0" bindname="openBuy"    fieldformat="" validre="" constvalue="" /> 
+			<field name="portBuyAmt" type="2" size="0" bindname="portBuyAmt" fieldformat="" validre="" constvalue="" /> 
+			<field name="portMktAmt" type="2" size="0" bindname="portMktAmt" fieldformat="" validre="" constvalue="" /> 
+			<field name="portLiqAmt" type="2" size="0" bindname="portLiqAmt" fieldformat="" validre="" constvalue="" /> 
+			<field name="curRatio"   type="6" size="0" bindname="curRatio"   fieldformat="" validre="" constvalue="" /> 
+			<field name="potRatio"   type="6" size="0" bindname="potRatio"   fieldformat="" validre="" constvalue="" /> 
+			<field name="MaxOrderAmt"   type="6" size="0" bindname="MaxOrderAmt"   fieldformat="" validre="" constvalue="" /> 
+			<field name="maxLotQty"   type="6" size="0" bindname="maxLotQty"   fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</output>
+</request>

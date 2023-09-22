@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="[184509]" descript="[184509]Automatic Order (History Order List)" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="userId" type="1" size="0" bindname="userId" fieldformat="" validre="" constvalue="" /> 
+			<field name="stock" type="1" size="0" bindname="stock" fieldformat="" validre="" constvalue="" /> 
+			<field name="dateFrom" type="1" size="0" bindname="dateFrom" fieldformat="" validre="" constvalue="" />
+			<field name="dateTo" type="1" size="0" bindname="dateTo" fieldformat="" validre="" constvalue="" />
+            <field name="bsFlag" type="1" size="0" bindname="bsFlag" fieldformat="" validre="" constvalue="" />
+            <field name="nextKey" type="1" size="0" bindname="nextKey" fieldformat="" validre="" constvalue="" />
+		</record>
+	</input>
+	<output>
+		<record name="out" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="SeqNo" type="1" size="0" bindname="SeqNo" fieldformat="" validre="" constvalue="" /> 
+			<field name="userId" type="1" size="0" bindname="userId" fieldformat="" validre="" constvalue="" />
+			<field name="StockID" type="1" size="0" bindname="StockID" fieldformat="" validre="" constvalue="" />
+			<field name="OrdValid" type="1" size="0" bindname="OrdValid" fieldformat="" validre="" constvalue="" />
+			<field name="CondDesc" type="1" size="0" bindname="CondDesc" fieldformat="" validre="" constvalue="" />
+			<field name="board_code" type="1" size="0" bindname="board_code" fieldformat="" validre="" constvalue="" /> 
+			<field name="OrderId" type="1" size="0" bindname="OrderId" fieldformat="" validre="" constvalue="" /> 
+			<field name="OrdType" type="1" size="0" bindname="OrdType" fieldformat="" validre="" constvalue="" /> 
+			<field name="OrdCond" type="1" size="0" bindname="OrdCond" fieldformat="" validre="" constvalue="" /> 
+			<field name="OrdPrice" type="1" size="0" bindname="OrdPrice" fieldformat="" validre="" constvalue="" /> 
+			<field name="OrdQty" type="1" size="0" bindname="OrdQty" fieldformat="" validre="" constvalue="" /> 
+			<field name="ValidDate" type="1" size="0" bindname="ValidDate" fieldformat="" validre="" constvalue="" /> 
+			<field name="OrdDate" type="1" size="0" bindname="OrdDate" fieldformat="" validre="" constvalue="" /> 
+			<field name="OrdTime" type="1" size="0" bindname="OrdTime" fieldformat="" validre="" constvalue="" /> 
+			<field name="PreNo" type="1" size="0" bindname="PreNo" fieldformat="" validre="" constvalue="" /> 
+			<field name="PreNoW" type="1" size="0" bindname="PreNoW" fieldformat="" validre="" constvalue="" /> 
+			<field name="CurStatus" type="1" size="0" bindname="CurStatus" fieldformat="" validre="" constvalue="" /> 
+			<field name="EntryDate" type="1" size="0" bindname="EntryDate" fieldformat="" validre="" constvalue="" /> 
+			<field name="Entrytime" type="1" size="0" bindname="Entrytime" fieldformat="" validre="" constvalue="" /> 
+			<field name="ErrMesg" type="1" size="0" bindname="ErrMesg" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</output>
+</request>

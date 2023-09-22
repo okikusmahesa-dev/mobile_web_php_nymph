@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="trade" descript="Q2" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="mktNo" type="1" size="0" bindname="mktNo" fieldformat="" validre="" constvalue="" />
+		</record>
+	</input>
+	<output>
+		<record name="trade" type="0" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="tradetime" type="2" size="0" bindname="time" fieldformat="TIMELONG(HH:mm:ss)" validre="" constvalue="" /> 
+			<field name="stockcode" type="1" size="0" bindname="KeyField" fieldformat="" validre="" constvalue="" />
+			<field name="boardcode" type="1" size="0" bindname="boardcode" fieldformat="" validre="" constvalue="" />
+			<field name="changecolor" type="1" size="0" bindname="changecolor" fieldformat="" validre="" constvalue="" />
+			<field name="price" type="3" size="0" bindname="price" fieldformat="COMMA(3)" validre="" constvalue="" /> 
+			<field name="chg" type="3" size="0" bindname="chg" fieldformat="COMMA(3)" validre="" constvalue="" /> 
+			<field name="chgR" type="7" size="0" bindname="chgR" fieldformat="DFMT(%.2f)" validre="" constvalue="" /> 
+			<field name="lasttick" type="2" size="0" bindname="lasttick" fieldformat="COMMA(3)" validre="" constvalue="" /> 
+			<field name="buyercode" type="1" size="0" bindname="buyercode" fieldformat="" validre="" constvalue="" /> 
+			<field name="buyertype" type="1" size="0" bindname="buyertype" fieldformat="" validre="" constvalue="" /> 
+			<field name="sellercode" type="1" size="0" bindname="sellercode" fieldformat="" validre="" constvalue="" /> 
+			<field name="sellertype" type="1" size="0" bindname="sellertype" fieldformat="" validre="" constvalue="" /> 
+			<field name="mktNo" type="2" size="0" bindname="mktNo" fieldformat="" validre="" constvalue="" />
+			<field name="buyC" type="11" size="0" bindname="buyC" fieldformat="" validre="" constvalue="" />
+			<field name="sellC" type="11" size="0" bindname="sellC" fieldformat="" validre="" constvalue="" /> 
+			<field name="cdStockC" type="11" size="0" bindname="cdStockC" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</output>
+</request>

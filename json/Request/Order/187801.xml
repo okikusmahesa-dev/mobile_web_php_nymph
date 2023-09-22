@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="BookingOrderList" descript="[187801]History Booking Order" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="userId" type="1" size="0" bindname="userId" fieldformat="" validre="" constvalue="" /> 
+			<field name="stock" type="1" size="0" bindname="stock" fieldformat="" validre="" constvalue="" /> 
+			<field name="bsFlag" type="1" size="0" bindname="bsFlag" fieldformat="" validre="" constvalue="" /> 
+			<field name="dtFrom" type="1" size="0" bindname="dtFrom" fieldformat="" validre="" constvalue="" /> 
+			<field name="dtTo" type="1" size="0" bindname="dtTo" fieldformat="" validre="" constvalue="" /> 
+			<field name="nextKey" type="1" size="0" bindname="nextKey" fieldformat="" validre="" constvalue="" /> 
+			<field name="chk" type="1" size="0" bindname="chk" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</input>
+	<output>
+		<record name="out" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="seq" type="1" size="0" bindname="seq" fieldformat="" validre="" constvalue="" /> 
+			<field name="cust" type="1" size="0" bindname="cust" fieldformat="" validre="" constvalue="" /> 
+			<field name="stock" type="1" size="0" bindname="stock" fieldformat="" validre="" constvalue="" /> 
+			<field name="board" type="1" size="0" bindname="board" fieldformat="" validre="" constvalue="" /> 
+			<field name="bsflag" type="1" size="0" bindname="bsflag" fieldformat="" validre="" constvalue="" /> 
+			<field name="entryDt" type="1" size="0" bindname="entryDt" fieldformat="LEGO(19)" validre="" constvalue="" /> 
+			<field name="price" type="2" size="0" bindname="price" fieldformat="DFMT(%.0f),COMMA(3)" validre="" constvalue="" /> 
+			<field name="qty" type="1" size="0" bindname="qty" fieldformat="DFMT(%.0f),COMMA(3)" validre="" constvalue="" /> 
+			<field name="bookDate" type="1" size="0" bindname="bookDate" fieldformat="" validre="" constvalue="" /> 
+			<field name="bookStat" type="1" size="0" bindname="bookStat" fieldformat="" validre="" constvalue="" /> 
+			<field name="bookMesg" type="1" size="0" bindname="bookMesg" fieldformat="" validre="" constvalue="" /> 
+			<field name="bookDel" type="1" size="0" bindname="bookDel" fieldformat="" validre="" constvalue="" /> 
+			<field name="stockC" type="11" size="0" bindname="stockC" fieldformat="" validre="" constvalue="" />
+		</record>
+	</output>
+</request>

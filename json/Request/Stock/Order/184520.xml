@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="[184520]" descript="[184520]Conditional Order(add) for WebOnly" >
+	<input>
+		<record name="in1" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="userId" type="1" size="0" bindname="userId" fieldformat="" validre="" constvalue="" /> 
+			<field name="dealerId" type="1" size="0" bindname="dealerId" fieldformat="" validre="" constvalue="" /> 
+			<field name="pin" type="1" size="0" bindname="pin" fieldformat="" validre="" constvalue="" /> 
+			<field name="code" type="1" size="0" bindname="code" fieldformat="" validre="" constvalue="" /> 
+			<field name="mkt" type="2" size="0" bindname="mkt" fieldformat="" validre="" constvalue="" /> 
+			<field name="bsFlag" type="2" size="0" bindname="bsFlag" fieldformat="" validre="" constvalue="" /> 
+			<field name="priceCond" type="3" size="0" bindname="priceCond" fieldformat="" validre="" constvalue="" /> 
+			<field name="price" type="3" size="0" bindname="price" fieldformat="" validre="" constvalue="" /> 
+			<field name="qty" type="3" size="0" bindname="qty" fieldformat="" validre="" constvalue="" /> 
+			<field name="validDate" type="3" size="0" bindname="validDate" fieldformat="" validre="" constvalue="" />
+			<field name="preSeqNo" type="3" size="0" bindname="preSeqNo" fieldformat="" validre="" constvalue="" />
+			<field name="preSeqNoW" type="3" size="0" bindname="preSeqNoW" fieldformat="" validre="" constvalue="" />
+			<field name="in2" type="3" size="0" bindname="in2" fieldformat="" validre="" constvalue="" /> 
+			<field name="in2_select" type="3" size="0" bindname="in2_select" fieldformat="" validre="" constvalue="" /> 
+			<field name="in2_price" type="3" size="0" bindname="in2_price" fieldformat="" validre="" constvalue="" /> 
+			<field name="in2_compare" type="2" size="0" bindname="in2_compare" fieldformat="" validre="" constvalue="" /> 
+			<field name="in2_value" type="2" size="0" bindname="in2_value" fieldformat="" validre="" constvalue="" /> 
+			<field name="in2_valueType" type="2" size="0" bindname="in2_valueType" fieldformat="" validre="" constvalue="" /> 
+			<field name="in2_base" type="2" size="0" bindname="in2_base" fieldformat="" validre="" constvalue="" /> 
+			<field name="inVol" type="3" size="0" bindname="inVol" fieldformat="" validre="" constvalue="" /> 
+			<field name="inVol_select" type="3" size="0" bindname="inVol_select" fieldformat="" validre="" constvalue="" /> 
+			<field name="inVol_compare" type="2" size="0" bindname="inVol_compare" fieldformat="" validre="" constvalue="" /> 
+			<field name="inVol_value" type="2" size="0" bindname="inVol_value" fieldformat="" validre="" constvalue="" />
+			<field name="inVol_trailingstat" type="1" size="0" bindname="inVol_trailingstat" fieldformat="" validre="" constvalue="" />
+			<field name="inVol_trailingvalue" type="3" size="0" bindname="inVol_trailingvalue" fieldformat="" validre="" constvalue="" /> 
+			<field name="inVol_prcpostrailing" type="3" size="0" bindname="inVol_prcpostrailing" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</input>
+	<output>
+		<record name="out" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="status" type="1" size="0" bindname="status" fieldformat="" validre="" constvalue="" /> 
+			<field name="mesg" type="1" size="0" bindname="mesg" fieldformat="" validre="" constvalue="" /> 
+			<field name="id" type="1" size="0" bindname="id" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</output>
+</request>

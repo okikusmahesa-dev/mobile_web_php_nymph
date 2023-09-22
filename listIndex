@@ -1,0 +1,70 @@
+buyOrderExtFake.php:						location.href = "index.php";
+buyOrderExtFake.php:				window.location.replace("index.php");
+buyOrderExtPagi.php:						location.href = "index.php";
+buyOrderExtPagi.php:				window.location.replace("index.php");
+buyOrderExt.php:						location.href = "index.php";
+buyOrderExt.php:				window.location.replace("index.php");
+buyOrderExt_t.php:						location.href = "index.php";
+buyOrderExt_t.php:				window.location.replace("index.php");
+chgPassword2.php:					window.location.replace("index.php");
+chgPassword2.php:					//window.location.replace("index.php");
+chgPassword2.php:				window.location.replace("index.php");
+chgPassword_izzan.php:				window.location.replace("index.php");
+chgPassword_izzan.php:				window.location.replace("index.php");
+chgPassword.php:		window.location.replace("index.php");
+chgPassword.php:				window.location.replace("index.php");
+chgPin.php:					window.location.replace("index.php");
+chgPin.php:					//window.location.replace("index.php");
+chgPin.php:				window.location.replace("index.php");
+coba-login.php:							window.open("index.php", "_self");
+coba-login.php:		<form method="post" action="index.php">
+form-withdraw.php:					location = "index.php";
+form-withdraw.php:					window.location.replace("index.php");
+form-withdraw.php:					//window.location.replace("index.php");
+form-withdraw.php:				window.location.replace("index.php");
+form_w.php:				//	location = "index.php";
+form_w.php:					window.location.replace("index.php");
+form_w.php:					//window.location.replace("index.php");
+form_w.php:				window.location.replace("index.php");
+form-w.php:					location = "index.php";
+form-w.php:					window.location.replace("index.php");
+form-w.php:					//window.location.replace("index.php");
+form-w.php:				window.location.replace("index.php");
+inc2.php:		//window.location = "index.php";
+inc-common-chat.php:		window.location = "index.php";
+inc-common.php:		window.location = "index.php?uFlag=1";
+inc.php:		//window.location = "index.php";
+index2.php:	<? include "page-header-index.php" ?>
+index.php:	<? include "page-header-index.php" ?>
+index_toni.php:	<? include "page-header-index.php" ?>
+inPin_encrypt.php:							window.open("index.php", "_self");
+inPin_encrypt.php:		<a href="index.php" data-inline="true" data-role="button" data-theme="b" data-mini="true">Cancel</a>
+inPin.php:							window.open("index.php", "_self");
+inPin.php:		<a href="index.php" data-inline="true" data-role="button" data-theme="b" data-mini="true">Cancel</a>
+login2.php:							window.open("index.php", "_self");
+login2.php:							//window.open("index.php", "_self");
+login2.php:		<form method="post" action="index.php">
+login.php:							window.open("index.php", "_self");
+login.php:							//window.open("index.php", "_self");
+login.php:		<form method="post" action="index.php">
+login-toni.php:							window.open("index.php", "_self");
+login-toni.php:							//window.open("index.php", "_self");
+login-toni.php:		<form method="post" action="index.php">
+orderList2.php:					window.location.replace("index.php");
+orderList.php:					window.location.replace("index.php");
+orderList_test.php:					window.location.replace("index.php");
+orderList_toni.php:					window.location.replace("index.php");
+portfolio.php://	echo 'window.location.href = "index.php";';
+portfolio.php://	echo 'window.location.href = "index.php";';
+portfolio.php:							location.href = "index.php";
+portfolio_t.php://	echo 'window.location.href = "index.php";';
+portfolio_t.php://	echo 'window.location.href = "index.php";';
+portfolio_t.php:							location.href = "index.php";
+scot-index.php:	<? include "scot-page-header-index.php" ?>
+scot-inPin.php:							window.open("scot-index.php", "_self");
+scot-inPin.php:		<a href="scot-index.php" data-inline="true" data-role="button" data-theme="b" data-mini="true">Cancel</a>
+scot-login.php:							location.replace("scot-index.php");
+scot-page-header-index.php:	<a href="scot-index.php" class="ui-btn-left ui-corner-all ui-shadow" data-role="button" data-icon="home">Home</a>
+scot-page-header.php:				<li><a href="scot-index.php">Home</a></li>
+sellOrderExtPagi.php:						location.href = "index.php";
+sellOrderExt.php:						location.href = "index.php";

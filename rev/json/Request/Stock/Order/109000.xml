@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="[109000]" descript="[109000]Foreign Buy Sell By Sector" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="orderNo" type="1" size="0" bindname="orderNo" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</input>
+	<output>
+		<record name="out" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="orderNo" type="1" size="0" bindname="orderNo" fieldformat="" validre="" constvalue="" /> 
+			<field name="refNo" type="1" size="0" bindname="refNo" fieldformat="" validre="" constvalue="" /> 
+			<field name="code" type="1" size="0" bindname="code" fieldformat="" validre="" constvalue="" /> 
+			<field name="market" type="1" size="0" bindname="market" fieldformat="" validre="" constvalue="" /> 
+			<field name="bsFlag" type="1" size="0" bindname="bsFlag" fieldformat="" validre="" constvalue="" /> 
+			<field name="fdFlag" type="1" size="0" bindname="fdFlag" fieldformat="" validre="" constvalue="" /> 
+			<field name="type" type="1" size="0" bindname="type" fieldformat="" validre="" constvalue="" /> 
+			<field name="price" type="7" size="0" bindname="price" fieldformat="" validre="" constvalue="" /> 
+			<field name="lot" type="7" size="0" bindname="lot" fieldformat="" validre="" constvalue="" /> 
+			<field name="bal" type="7" size="0" bindname="bal" fieldformat="" validre="" constvalue="" /> 
+			<field name="queue" type="7" size="0" bindname="queue" fieldformat="" validre="" constvalue="" /> 
+			<field name="lots" type="7" size="0" bindname="lots" fieldformat="" validre="" constvalue="" /> 
+			<field name="nQueue" type="7" size="0" bindname="nQueue" fieldformat="" validre="" constvalue="" /> 
+			<field name="nLots" type="7" size="0" bindname="nLots" fieldformat="" validre="" constvalue="" /> 
+			<field name="status" type="1" size="0" bindname="status" fieldformat="" validre="" constvalue="" /> 
+			<field name="lotL" type="11" size="0" bindname="lotL" fieldformat="LFMT(%04d),COMMA(3)" validre="" constvalue="" /> 
+			<field name="balL" type="11" size="0" bindname="balL" fieldformat="LFMT(%04d),COMMA(3)" validre="" constvalue="" /> 
+			<field name="lotsL" type="11" size="0" bindname="lotsL" fieldformat="LFMT(%04d),COMMA(3)" validre="" constvalue="" /> 
+			<field name="nLotsL" type="11" size="0" bindname="nLotsL" fieldformat="LFMT(%04d),COMMA(3)" validre="" constvalue="" /> 
+			<field name="codeC" type="11" size="0" bindname="codeC" fieldformat="" validre="" constvalue="" /> 
+		</record>
+		<record name="out2" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="lotL" type="11" size="0" bindname="lotL" fieldformat="LFMT(%04d),COMMA(3)" validre="" constvalue="" /> 
+			<field name="balL" type="11" size="0" bindname="balL" fieldformat="LFMT(%04d),COMMA(3)" validre="" constvalue="" /> 
+			<field name="lotsL" type="11" size="0" bindname="lotsL" fieldformat="LFMT(%04d),COMMA(3)" validre="" constvalue="" /> 
+			<field name="nLotsL" type="11" size="0" bindname="nLotsL" fieldformat="LFMT(%04d),COMMA(3)" validre="" constvalue="" /> 
+		</record>
+	</output>
+</request>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="[189400]" descript="[189400]SAO Simple for WebOnly" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="userId" type="1" size="0" bindname="userId" fieldformat="" validre="" constvalue="" />
+			<field name="dealerId" type="1" size="0" bindname="dealerId" fieldformat="" validre="" constvalue="" />
+			<field name="pin" type="1" size="0" bindname="pin" fieldformat="" validre="" constvalue="" />
+			<field name="stock" type="1" size="0" bindname="stock" fieldformat="" validre="" constvalue="" />
+			<field name="board" type="1" size="0" bindname="board" fieldformat="" validre="" constvalue="" />
+			<field name="bsFlag" type="1" size="0" bindname="bsFlag" fieldformat="" validre="" constvalue="" />
+			<field name="price" type="1" size="0" bindname="price" fieldformat="" validre="" constvalue="" />
+			<field name="qty" type="1" size="0" bindname="qty" fieldformat="" validre="" constvalue="" />
+			<field name="saoType" type="1" size="0" bindname="saoType" fieldformat="" validre="" constvalue="" />
+			<field name="saoCnt" type="1" size="0" bindname="saoCnt" fieldformat="" validre="" constvalue="" />
+			<field name="saoOpt" type="1" size="0" bindname="saoOpt" fieldformat="" validre="" constvalue="" />
+			<field name="checkRM" type="1" size="0" bindname="checkRM" fieldformat="" validre="" constvalue="" />
+		</record>
+	</input>
+	<output>
+		<record name="out" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="status" type="1" size="0" bindname="status" fieldformat="" validre="" constvalue="" /> 
+			<field name="mesg" type="1" size="0" bindname="mesg" fieldformat="" validre="" constvalue="" /> 
+			<field name="data" type="1" size="0" bindname="data" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</output>
+</request>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="[801100]" descript="[801100]ProfitRanking" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="date" type="1" size="0" bindname="date" fieldformat="" validre="" constvalue="" />
+		</record>
+	</input>
+	<output>
+		<record name="out" type="0" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="cliId" type="1" size="0" bindname="cliId" fieldformat="" validre="" constvalue="" />
+			<field name="cliName" type="1" size="0" bindname="cliName" fieldformat="" validre="" constvalue="" />
+			<field name="stkVal" type="3" size="0" bindname="stkVal" fieldformat="DFMT(%.0f),COMMA(3)" validre="" constvalue="" />
+			<field name="mktVal" type="3" size="0" bindname="mktVal" fieldformat="DFMT(%.0f),COMMA(3)" validre="" constvalue="" />
+			<field name="lqVal" type="11" size="0" bindname="lqVal" fieldformat="DFMT(%.0f),COMMA(3)" validre="" constvalue="" />
+			<field name="profitVal" type="3" size="0" bindname="profitVal" fieldformat="DFMT(%.0f),COMMA(3)" validre="" constvalue="" />
+			<field name="profitRate" type="3" size="0" bindname="profitRate" fieldformat="DFMT(%.2f),COMMA(3)" validre="" constvalue="" />
+		</record>
+	</output>
+</request>

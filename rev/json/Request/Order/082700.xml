@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="[080300]" descript="[080300]Control Bokking Order(GTC/overnight) List" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="userID" type="1" size="0" bindname="userID" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</input>
+	<output>
+		<record name="out" type="0" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="EntryDate" type="1" size="0" bindname="EntryDate" fieldformat="DATELONG(yyyy-MM-dd)" validre="" constvalue="" /> 
+			<field name="EntryTime" type="1" size="0" bindname="EntryTime" fieldformat="TIMELONG(HH:mm:ss)" validre="" constvalue="" /> 
+			<field name="UserID" type="1" size="0" bindname="UserID" fieldformat="" validre="" constvalue="" /> 
+			<field name="UserName" type="1" size="0" bindname="UserName" fieldformat="" validre="" constvalue="" /> 
+			<field name="OrdType" type="1" size="0" bindname="OrdType" fieldformat="" validre="" constvalue="" /> 
+			<field name="StockID" type="1" size="0" bindname="StockID" fieldformat="" validre="" constvalue="" /> 
+			<field name="OrdPrice" type="1" size="0" bindname="OrdPrice" fieldformat="" validre="" constvalue="" /> 
+			<field name="OrdQty" type="1" size="0" bindname="OrdQty" fieldformat="" validre="" constvalue="" /> 
+			<field name="ExpDate" type="1" size="0" bindname="ExpDate" fieldformat="" validre="" constvalue="" /> 
+			<field name="OrdDate" type="1" size="0" bindname="OrdDate" fieldformat="DATELONG(yyyy-MM-dd)" validre="" constvalue="" /> 
+			<field name="OrdTime" type="1" size="0" bindname="OrdTime" fieldformat="TIMELONG(HH:mm:ss)" validre="" constvalue="" />
+			<field name="ErrMseg" type="1" size="0" bindname="ErrMseg" validre="" constvalue="" /> 
+			<field name="SeqNo" type="1" size="0" bindname="SeqNo" fieldformat="" validre="" constvalue="" /> 
+			<field name="fDel" type="1" size="0" bindname="fDel" validre="" constvalue="" />
+			<field name="delDt" type="1" size="0" bindname="delDt" validre="" constvalue="" />
+			<field name="BSflagC" type="10" size="0" bindname="BSflagC" fieldformat="" validre="" constvalue="" />
+			<field name="codeC" type="11" size="0" bindname="codeC" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</output>
+</request>

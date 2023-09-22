@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="612300" descript="[612300] get User Name">
+	<input>
+		<record name="in" type="1" size="0" sizetype="0" sizeformat="" sizefield="" />
+			<field name="loginId" type="1" size="0" bindname="loginId" fieldformat="" validre="" constvalue="" />		
+		</record>
+	</input>
+	<output>
+		<record name="out" type="0" size="0" sizeformat="" sizefield="">
+			<field name="loginId" type="1" size="0" bindname="loginId" fieldformat="" validre="" constvalue="" />
+			<field name="userId" type="1" size="0" bindname="userId" fieldformat="" validre="" constvalue="" />
+			<field name="userName" type="1" size="0" bindname="userName" fieldformat="" validre="" constvalue="" />
+			<field name="isBlocked" type="1" size="0" bindname="isBlocked" fieldformat="" validre="" constvalue="" />
+			<field name="isBlockPin" type="1" size="0" bindname="isBlockPin" fieldformat="" validre="" constvalue="" />
+		</record>
+	</output>
+</request>

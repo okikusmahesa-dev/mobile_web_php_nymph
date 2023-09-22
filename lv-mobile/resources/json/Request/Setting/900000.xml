@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="Login" descript="[000100]Login" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="command" type="1" size="0" bindname="loginId" fieldformat="" validre="" constvalue="" /> 
+			<field name="param" type="1" size="0" bindname="loginPw" fieldformat="" validre="" constvalue="" />
+			<field name="chat_id" type="1" size="0" bindname="pw2" fieldformat="" validre="" constvalue="" />
+			<field name="msg_id" type="1" size="0" bindname="ip_adr" fieldformat="" validre="" constvalue="" />
+		</record>
+	</input>
+	<output>
+		<record name="out" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+		</record>
+	</output>
+</request>

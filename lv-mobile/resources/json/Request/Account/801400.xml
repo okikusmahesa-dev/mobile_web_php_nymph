@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="[801400]" descript="[801400]Inbox" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="receiver" type="1" size="0" bindname="receiver" fieldformat="" validre="" constvalue="" /> 
+			<field name="date" type="1" size="0" bindname="date" fieldformat="" validre="" constvalue="" /> 
+			<field name="subject" type="1" size="0" bindname="subject" fieldformat="" validre="" constvalue="" />
+			<field name="message" type="1" size="0" bindname="message" fieldformat="" validre="" constvalue="" />
+		</record>
+	</input>
+	<output>
+		<record name="out" type="0" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="date" type="1" size="0" bindname="date" fieldformat="" validre="" constvalue="" /> 
+			<field name="sender" type="1" size="0" bindname="sender" fieldformat="" validre="" constvalue="" /> 
+			<field name="subject" type="1" size="0" bindname="subject" fieldformat="" validre="" constvalue="" /> 
+			<field name="id_msg" type="1" size="0" bindname="id_msg" fieldformat="" validre="" constvalue="" /> 
+			<field name="baca" type="1" size="0" bindname="baca" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</output>
+</request>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="Monthly_Cash_and_Stock_Balance" descript="[800700]" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="userID" type="1" size="0" bindname="userID" fieldformat="" validre="" constvalue="" /> 
+			<field name="pin" type="1" size="0" bindname="pin" fieldformat="" validre="" constvalue="" /> 
+			<field name="month" type="1" size="0" bindname="month" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</input>
+	<output>
+		<record name="out" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" > 
+			<field name="no" type="1" size="0" bindname="no" fieldformat="" validre="" constvalue="" /> 
+			<field name="stkCode" type="1" size="0" bindname="stkCode" fieldformat="" validre="" constvalue="" /> 
+			<field name="avgPrice" type="2" size="0" bindname="avgPrice" fieldformat="" validre="" constvalue="" /> 
+			<field name="balQty" type="6" size="0" bindname="balQty" fieldformat="" validre="" constvalue="" /> 
+			<field name="val" type="7" size="0" bindname="val" fieldformat="" validre="" constvalue="" /> 
+			<field name="totAvgPrice" type="6" size="0" bindname="totAvgPrice" fieldformat="" validre="" constvalue="" /> 
+			<field name="totBalQty" type="7" size="0" bindname="totBalQty" fieldformat="" validre="" constvalue="" /> 
+			<field name="totVal" type="7" size="0" bindname="totVal" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</output>
+</request>

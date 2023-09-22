@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="Login" descript="[000100]Login" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="id" type="1" size="0" bindname="loginId" fieldformat="" validre="" constvalue="" /> 
+			<field name="pw" type="1" size="0" bindname="loginPw" fieldformat="" validre="" constvalue="" />
+			<field name="pw2" type="1" size="0" bindname="pw2" fieldformat="" validre="" constvalue="" />
+			<field name="ip_adr" type="1" size="0" bindname="ip_adr" fieldformat="" validre="" constvalue="" />
+		</record>
+	</input>
+	<output>
+		<record name="out" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="status" type="1" size="0" bindname="status" fieldformat="" validre="" constvalue="" /> 
+			<field name="mesg" type="1" size="0" bindname="mesg" fieldformat="" validre="" constvalue="" /> 
+			<field name="userId" type="1" size="0" bindname="userId" fieldformat="" validre="" constvalue="" /> 
+			<field name="userName" type="1" size="0" bindname="userName" fieldformat="" validre="" constvalue="" /> 
+			<field name="dealerId" type="1" size="0" bindname="dealerId" fieldformat="" validre="" constvalue="" /> 
+			<field name="htsId" type="1" size="0" bindname="htsId" fieldformat="" validre="" constvalue="" /> 
+			<field name="termId" type="1" size="0" bindname="termId" fieldformat="" validre="" constvalue="" /> 
+			<field name="right" type="1" size="0" bindname="right" fieldformat="" validre="" constvalue="" /> 
+			<field name="today" type="1" size="0" bindname="today" fieldformat="" validre="" constvalue="" /> 
+			<field name="isWork" type="1" size="0" bindname="isWork" fieldformat="" validre="" constvalue="" /> 
+			<field name="nextWorkDay" type="1" size="0" bindname="nextWorkDay" fieldformat="" validre="" constvalue="" /> 
+			<field name="isChangeId" type="1" size="0" bindname="isChangeId" fieldformat="" validre="" constvalue="" />
+		</record>
+	</output>
+</request>

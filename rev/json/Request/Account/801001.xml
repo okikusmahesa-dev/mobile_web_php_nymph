@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="PinChange" descript="[801001]Pin Change" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="userId" type="1" size="0" bindname="userId" fieldformat="" validre="" constvalue="" />
+			<field name="oldPin" type="1" size="0" bindname="oldPin" fieldformat="" validre="" constvalue="" />
+			<field name="newPin" type="1" size="0" bindname="newPin" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</input>
+	<output>
+		<record name="out" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="misspin" type="1" size="0" bindname="misspin" fieldformat="" validre="" constvalue="" /> 		
+			<field name="status" type="1" size="0" bindname="status" fieldformat="" validre="" constvalue="" /> 		
+		</record>
+	</output>
+</request>

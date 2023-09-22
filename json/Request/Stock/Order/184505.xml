@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="[184505]" descript="[184505]Conditional Order(Delete Child preNo)" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="preNo" type="1" size="0" bindname="preNo" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</input>
+	<output>
+		<record name="out" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="trOut" type="1" size="0" bindname="status" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</output>
+
+</request>

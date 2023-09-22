@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="MontCashandStockBal" descript="[800700] Mont Cash and Stock Bal" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="userID" type="1" size="0" bindname="userID" fieldformat="" validre="" constvalue="" /> 
+			<field name="pin" type="1" size="0" bindname="pin" fieldformat="" validre="" constvalue="" /> 
+			<field name="month" type="1" size="0" bindname="month" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</input>
+	<output>
+		<record name="out" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="userNm" type="1" size="0" bindname="userNm" fieldformat="" validre="" constvalue="" />
+			<field name="cash" type="7" size="0" bindname="cash" fieldformat="" validre="" constvalue="" /> 
+			<field name="stkVal" type="7" size="0" bindname="stkVal" fieldformat="" validre="" constvalue="" /> 
+			<field name="tot12" type="7" size="0" bindname="tot12" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</output>
+</request>

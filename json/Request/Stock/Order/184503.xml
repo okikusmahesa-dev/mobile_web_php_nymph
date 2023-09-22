@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="[184503]" descript="[184503]Conditional Order(on/off)" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="cliId" type="1" size="0" bindname="cliId" fieldformat="" validre="" constvalue="" /> 
+			<field name="brokerId" type="1" size="0" bindname="brokerId" fieldformat="" validre="" constvalue="" /> 
+			<field name="pin" type="1" size="0" bindname="pin" fieldformat="" validre="" constvalue="" /> 
+			<field name="seq" type="1" size="0" bindname="seq" fieldformat="" validre="" constvalue="" /> 
+			<field name="flag" type="1" size="0" bindname="flag" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</input>
+	<output>
+		<record name="out" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="status" type="1" size="0" bindname="status" fieldformat="" validre="" constvalue="" /> 
+			<field name="mesg" type="1" size="0" bindname="mesg" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</output>
+</request>

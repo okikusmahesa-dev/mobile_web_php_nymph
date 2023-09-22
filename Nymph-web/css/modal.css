@@ -1,0 +1,125 @@
+.modal {
+display: none; /* Hidden by default */
+position: fixed; /* Stay in place */
+z-index: 1; /* Sit on top */
+left: 0;
+top: 0;
+width: 100%; /* Full width */
+height: 100%; /* Full height */
+overflow: auto; /* Enable scroll if needed */
+background-color: rgb(122,156,153); /* Fallback color */
+background-color: rgba(122,156,153,1.0); /* Black w/ opacity */
+box-shadow: 10px 10px 5px #888888;
+}
+.modal-content {
+left:7%;
+background-color: #D6FFC6;//#fefefe;
+margin:5% auto;/* 15% from the top and centered */
+border: 1px solid #888;
+width: 90%; /* Could be more or less, depending on screen size */
+border-radius: 1%;
+}
+#edit-tables{
+width: 100%;
+overflow: auto;
+max-height: 300px;
+margin-top: 20px;
+}
+#toolbar{
+margin:0;
+padding:0;
+background-color:#4E82B3;
+height:34px;
+border-radius: 2%;
+}
+.modal-main{
+margin: 10px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 17px;
+color: #000000;
+}
+label{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+color: #000000;
+margin-right:20px;
+}
+.clear{
+float:none;
+clear:both;
+}
+.toolbarName {
+font-family: Arial, Helvetica, sans-serif;
+margin-right: 2px;
+color: #FFF;
+float: left;
+padding-left:10px;
+padding-top:8px;
+font-size: 16px;
+}
+.close {
+width:34px;
+margin-right: 2px;
+color: #aaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+.close:hover,
+.close:focus {
+border: 1px solid #6CA9D2;
+color: black;
+text-decoration: none;
+cursor: pointer;
+}
+.spanned{
+font-size:11px;
+}
+.buttondown div{
+display:inline-block;
+}
+#srcgroup{
+width:60%;
+height: 30px;
+padding-left:5px;
+}
+#srcgroup:focus{
+box-shadow: 2px 2px 2px #888;
+}
+#showStock{
+float:right;
+width:70px;
+height:30px;
+padding-left: 20px;
+background-position: 10% 50%;
+background-color: #FFF;
+border-radius: 20px;
+border:none;
+}
+#saveStock{
+margin-top: 0px;
+background-color: #FFF;
+height: 30px;
+width: 100%;
+border-radius: 20px;
+}
+#addStockNow{
+width:60%;
+padding-left: 5px;
+}
+#addBoardNow{
+width:60%;
+padding-left: 5px;
+}
+.sve{
+background: url("./images/sve.png") no-repeat;
+}
+.back{
+background: url("./images/back.png") no-repeat;
+}
+.uup{
+background: url("./images/ups.png") no-repeat;
+}
+.ddn{
+background: url("./images/downs.png") no-repeat;
+}

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href='tableio.xsl' type='text/xsl'?>
+<request Name="[141600]" descript="[141600]Disparity" >
+	<input>
+		<record name="in" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="position" type="1" size="0" bindname="position" fieldformat="" validre="" constvalue="" /> 
+			<field name="ma" type="1" size="0" bindname="ma" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</input>
+	<output>
+		<record name="out" type="1" size="0" sizetype="0"  sizeformat="" sizefield="" >
+			<field name="no" type="2" size="0" bindname="no" fieldformat="" validre="" constvalue="" /> 
+			<field name="code" type="1" size="0" bindname="code" fieldformat="" validre="" constvalue="" /> 
+			<field name="prev" type="1" size="0" bindname="prev" fieldformat="COMMA(3)" validre="" constvalue="" /> 
+			<field name="open" type="2" size="0" bindname="open" fieldformat="COMMA(3)" validre="" constvalue="" /> 
+			<field name="high" type="2" size="0" bindname="high" fieldformat="COMMA(3)" validre="" constvalue="" /> 
+			<field name="low" type="2" size="0" bindname="low" fieldformat="COMMA(3)" validre="" constvalue="" /> 
+			<field name="last" type="2" size="0" bindname="last" fieldformat="COMMA(3)" validre="" constvalue="" /> 
+			<field name="chgP" type="1" size="0" bindname="chgP" fieldformat="" validre="" constvalue="" /> 
+			<field name="chg" type="7" size="0" bindname="chg" fieldformat="COMMA(3)" validre="" constvalue="" /> 
+			<field name="chgR" type="7" size="0" bindname="chgR" fieldformat="DFMT(%.2f%%),ABS(T),COMMA(3)" validre="" constvalue="" /> 
+			<field name="disparity" type="2" size="0" bindname="disparity" fieldformat="DFMT(%.0f)" validre="" constvalue="" /> 
+			<field name="val" type="2" size="0" bindname="val" fieldformat="DIV(1000),DFMT(%.0f),COMMA(3)" validre="" constvalue="" /> 
+			<field name="vol" type="7" size="0" bindname="vol" fieldformat="" validre="" constvalue="" /> 
+			<field name="freq" type="2" size="0" bindname="freq" fieldformat="COMMA(3)" validre="" constvalue="" /> 
+			<field name="chgC" type="11" size="0" bindname="chgC" fieldformat="" validre="" constvalue="" /> 
+			<field name="prevC" type="11" size="0" bindname="prevC" fieldformat="" validre="" constvalue="" /> 
+			<field name="openC" type="11" size="0" bindname="openC" fieldformat="" validre="" constvalue="" /> 
+			<field name="highC" type="11" size="0" bindname="highC" fieldformat="" validre="" constvalue="" /> 
+			<field name="lowC" type="11" size="0" bindname="lowC" fieldformat="" validre="" constvalue="" /> 
+			<field name="DisC" type="11" size="0" bindname="DisC" fieldformat="" validre="" constvalue="" /> 
+			<field name="lot" type="14" size="0" bindname="lot" fieldformat="DFMT(%.0f),COMMA(3)" validre="" constvalue="" /> 
+			<field name="codeC" type="14" size="0" bindname="codeC" fieldformat="" validre="" constvalue="" /> 
+		</record>
+	</output>
+</request>
